@@ -1,104 +1,260 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Tambria - Atlanta Web Developer</title>
+    <title>Tambria Kemp | Full Stack Web Developer | Make the Internet Pretty Again</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="js/index.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/grid.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
 </head>
+
 <body>
-    <main>
-        <header>
-            <div class="top-bar">
-                <div class="top-left">
-                    <img src="">
-                    <p>AVAILABLE FOR PERMANENT AND FREELANCE</p>
-                </div>
-                <div class="top-right">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                </div>
-            </div>
-            <div class="bottom-bar">
-                <div class="logo"></div>
-                <nav class="topnav">
-                    <ul>
-                        <li>home</li>
-                        <li>about</li>
-                        <li>skill</li>
-                        <li>experience</li>
-                        <li>education</li>
-                        <li>work</li>
-                        <li>blog</li>
-                        <li>contact</li>
-                    </ul>
-                </nav>
-                <a href="javascript:void(0);" class="icon" onclick="mobileMenu()">
-                        <i class="fa fa-bars"></i>
-                      </a>
-                <div class="responsive-menu"></div>
-            </div>
-
-        </header>
-        <div class="wrapper home">
-                <div class="intro">
-                    <h1></h1>
-                    <p></p>
-                    <button></button>
-                    <button></button>
-                </div>
-                <div class="me-home"></div>
+    <header>
+        <div class="top-bar">
+            <img src="images/envelope.svg" class="icon" alt="envelope">
+            <p>available for hire</p>
         </div>
-        
-        <div class="wrapper about">
-                <div class="page-title"></div>
-                <div class="me-about"></div>
-                <div class="about-content"></div>
+        <div class="bottom-bar">
+            <div class="logo">Tambria Kemp</div>
+            <nav class="nav">
+                <label for="toggle">&#9776;</label>
+                <input type="checkbox" id="toggle" />
+                <ul class="menu">
+                    <li>
+                        <a class="link" href="#home">home</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#about">about</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#skill">skill</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#experience">experience</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#education">education</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#work">work</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#contact">contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href class="contact-btn">+</a>
         </div>
 
-        <div class="wrapper skill">
-                <div class="technical-skills">
-                    <label></label>
-                    <div class="progressbar"></div>
-                    <label></label>
-                    <div class="progressbar"></div>
-                    <label></label>
-                    <div class="progressbar"></div>
-                    <label></label>
-                    <div class="progressbar"></div>
+    </header>
+
+
+    <div class="sections">
+        <div class="owl-carousel owl-theme sections-wrapper ">
+            <section class="home" data-hash="home">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-7 vertical-center padding-bottom">
+                            <h1>FRONT-END </br>WEB DEVELOPER</h1>
+                            <p>Just a Front-End Web Developer passionate about all things the web and on a mission to "making
+                                the internet pretty again."</p>
+                            <button class="white-btn">hire me now</button>
+                            <button class="purple-btn">download cv</button>
+                        </div>
+                        <div class="col-sm-5 vertical-center">
+                            <img src="images/me.png" class="section-img" alt="Tambria Kemp">
+                        </div>
+                    </div>
                 </div>
-                <div class="knowledge">
-                    <div class="knowledge-left"></div>
-                    <div class="knowledge-right"></div>
+            </section>
+            <section class="about" data-hash="about">
+                <div class="container">
+                    <h2>
+                        about
+                    </h2>
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <img src="images/me.png" class="section-img" alt="Tambria Kemp">
+                        </div>
+                        <div class="col-sm-10">
+                            <h3>Tambria Kemp</h3>
+                            <p>
+                                Ultricies nisi voluptatem, illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam
+                                voluptatem. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                latu dantium, totam rem aperiam, eaque ipsa quae ab illo tempor dignissim at.
+                            </p>
+                        </div>
+                    </div>
                 </div>
+            </section>
+            <section class="skill" data-hash="skill">
+                <div class="container">
+                    <h2>
+                        skill
+                    </h2>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h4>Technical Skills</h4>
+                            <span>React</span>
+                            <div class="progress-bar"></div>
+                            <span>Javasctipt</span>
+                            <div class="progress-bar"></div>
+                            <span>NodeJs</span>
+                            <div class="progress-bar"></div>
+                            <span>HTML/CSS</span>
+                            <div class="progress-bar"></div>
+                        </div>
+                        <div class="col-sm-6">
+                            <h4>Knowledge</h4>
+                            <div class="row">
+                                <div class="col-sm6">
+                                    <ul class="knowledge">
+                                        <li>Express</li>
+                                        <li>MongoDB</li>
+                                        <li>MySQL</li>
+                                        <li>Redux</li>
+                                        <li>Wordpress</li>
+                                        <li>Wordpress</li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm6">
+                                    <ul class="knowledge">
+                                        <li>Mocha</li>
+                                        <li>Chai</li>
+                                        <li>Protractor</li>
+                                        <li>Wordpress</li>
+                                        <li>Wordpress</li>
+                                        <li>Wordpress</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                            </row>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="experience" data-hash="experience">
+                <div class="container">
+                    <h2>
+                        5 years experience
+                    </h2>
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <img src="images/me.png" class="section-img" alt="Tambria Kemp">
+                        </div>
+                        <div class="col-sm-10">
+                            <h3>Tambria Kemp</h3>
+                            <p>
+                                Ultricies nisi voluptatem, illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam
+                                voluptatem. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                latu dantium, totam rem aperiam, eaque ipsa quae ab illo tempor dignissim at.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="education" data-hash="education">
+                <div class="container">
+                    <h2>
+                        education
+                    </h2>
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <img src="images/me.png" class="section-img" alt="Tambria Kemp">
+                        </div>
+                        <div class="col-sm-10">
+                            <h3>Tambria Kemp</h3>
+                            <p>
+                                Ultricies nisi voluptatem, illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam
+                                voluptatem. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                latu dantium, totam rem aperiam, eaque ipsa quae ab illo tempor dignissim at.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="work" data-hash="work">
+                <div class="container">
+                    <h2>
+                        work
+                    </h2>
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <img src="images/me.png" class="section-img" alt="Tambria Kemp">
+                        </div>
+                        <div class="col-sm-10">
+                            <h3>Tambria Kemp</h3>
+                            <p>
+                                Ultricies nisi voluptatem, illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam
+                                voluptatem. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                latu dantium, totam rem aperiam, eaque ipsa quae ab illo tempor dignissim at.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact" data-hash="contact">
+                <div class="container">
+                    <h2>
+                        get in touch with me
+                    </h2>
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <h4>contact info</h4>
+
+                            <ul class="contact-info">
+                                <li>City: Atlanta, GA</li>
+                                <li>Email: hi@tambriakemp.com</li>
+                                <li>Protractor</li>
+                                <li>Wordpress</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-7">
+                            <h4>contact form</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
-
-        <div class="wrapper experience">
-            <div class="experience-content"></div>
-            <div class="testimonies"></div>
-        </div>
-
-        <div class="wrapper education"></div>
-
-        <div class="wrapper work"></div>
-
-        <div class="wrapper blog"></div>
-
-        <div class="wrapper contact"></div>
-
-
-    </main>
+    </div>
     <footer>
-        <div class="footer-column"></div>
-        <div class="footer-column"></div>
-        <div class="footer-column"></div>
-        <div class="copyright"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h4>address</h4>
+                    <p>Atlanta, GA</p>
 
+                </div>
+                <div class="col-sm-4">
+                    <h4>connect</h4>
+                    <p>Atlanta, GA</p>
+                </div>
+                <div class="col-sm-4">
+                    <h4>contact</h4>
+                    <p>email: contact@tambriakemp.com </p>
+                </div>
+            </div>
+        </div>
     </footer>
-    
+    <div class="footer-bottom">
+        <p>Copyright@ 2019 Made with Love</p>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="assets/owl.carousel.js"></script>
+    <script src="assets/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+
 </body>
+
 </html>
